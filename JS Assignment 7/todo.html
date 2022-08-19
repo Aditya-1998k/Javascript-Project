@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Todo List</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>TODAY WORK</h1>
+        </header>
+        <div id="main">
+            <div id="input_part">
+                <p><strong>Enter The Work ToDo</strong></p>
+                <input type='text' name='todo_input' id="inputs">
+            </div>
+            <div id="button_part">
+                <br>
+                <button type='submit' onclick="addList()">Add Todo</button>
+                
+                <button onclick="remove()">Remove</button>
+            </div>
+            <div id="result_part">
+                <p><strong>Your List Is Ready</strong></p>
+                <ol id="list2"></ol>
+            </div>
+            <p><strong>Caution:Only 10 Work Allowed For a Day</strong></p>
+        </div>
+    </body>
+<script src='script.js'></script>
+</html>

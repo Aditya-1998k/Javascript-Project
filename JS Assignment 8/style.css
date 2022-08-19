@@ -1,0 +1,31 @@
+body{
+    width: 95%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    border: 40px solid black;
+    border-radius: 50px;
+}
+header{
+    width: 97%;
+    height: 60px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header,#button_part{
+    margin: 10px;
+}
+#button_part{
+    text-align: center;
+    background-color: white;
+}
+#resul1,#result2,#result3{
+    width: 32%;
+    background-color: white;
+    display: block;
+    float: left;
+    background-color: white;
+}
